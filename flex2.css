@@ -1,0 +1,227 @@
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    
+   
+}
+.signup{
+    border-radius: 20px;
+    background-color: #14A800;
+    color: white;
+}
+.signup {
+    font-size: 18px; /* Increase the font size */
+    width: 100px; /* Increase the width */
+    height: 40px; /* Increase the height */
+    border: none;
+    cursor: pointer;
+
+}
+.login{
+    display: flex;
+    align-items: center; /* Center contents horizontally */
+    text-align: center; /* Center text horizontally */
+}
+.login div:first-child {
+    margin-right: 20px; /* Add margin below the "Log in" text */
+}
+.nav2{
+    display: flex;
+    justify-content: flex-start;
+    border-top: solid 1px #E4EBE4;
+    padding: 20px; 
+    height: 50px;
+    gap: 20px;
+}
+body{
+    padding: 0;
+    padding: 0;
+}
+
+.nav3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav4{
+    display: flex;
+    align-items: center; 
+    margin-left: 60px;
+    gap: 30px;
+
+    
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial;
+  margin-right: 25%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #14A800;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a  background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.heading_h1{
+    font-size: 75px;
+    margin: 5% 30% 0 5%;
+    color:#14A800;
+}
+.divlogo {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+.heading_h3{
+    color: #5E6D55;
+    margin-left: 5%;
+}
+.imgdav2 {
+    margin-right: 60px;
+
+}
+
+.trested{
+    color: gray;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+.getbut{ 
+    border-radius: 20px;
+    background-color: #14A800;
+    color: white;
+    font-size: 16px bold; /* Increase the font size */
+    width: 100px; /* Increase the width */
+    height: 40px; /* Increase the height */
+    border: none;
+    cursor: pointer;
+    margin-left: 5%;
+
+}
+.upwork-hero {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .upwork-hero .title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .upwork-hero .text {
+    
+    font-size: 25px;
+    line-height: 25px;
+    color: black;
+  }
+  
+  .upwork-hero a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .upwork-hero a:hover {
+    color: #fff;
+  }
+  
+  .upwork-hero .btn {
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  .upwork-hero .btn-primary {
+    background-color: #14A800;
+  }
+  
+  .upwork-hero .btn-secondary {
+    background-color: white;
+    border: solid 1px green;
+    color: #14A800;
+  }
+  
+  .upwork-hero a.btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .upwork-hero ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .upwork-hero li {
+    margin-bottom: 10px;
+  }
+  .texth3{
+    color: #5E6D55;
+  }
